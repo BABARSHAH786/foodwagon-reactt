@@ -1,24 +1,23 @@
 // add to the top
 import React from "react";
 import { createRoot } from "react-dom/client";
- 
-// modify the createRoot call, delete "ReactDOM"
-// const root = createRoot(container);
-// const Pet = (props) => {
-//     return (
-//       <div>
-//         <h1>{props.name}</h1>
-//         <h2>{props.animal}</h2>
-//         <h2>{props.breed}</h2>
-//       </div>
-//     );
-//   };
-   
-//   export default Pet;
+import App from "./App";
+import Header from "./components/header";
+
+const container = document.getElementById("root");
+const root = createRoot(container);
+// root.render(React.createElement("h2", {}, "We are learning React"));
+root.render(React.createElement(App));
+// import style
+import '../asset/style.css'
 
 
-export default function Navbar(){
+
+
+export default function Apps(){
     return(
-        <div>HELLO</div>
+        <div>HELLO
+            <Header />
+        </div>
     )
 }
