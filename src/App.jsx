@@ -18,7 +18,7 @@ export default function Apps(){
     return(
         <div>HELLO
             <p>we done it yes</p>
-            <p>all are players</p>
+            <p>all are playerss</p>
             {/* <Header /> */}
         </div>
     )
