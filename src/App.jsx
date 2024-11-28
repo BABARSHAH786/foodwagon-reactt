@@ -2,7 +2,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import Header from "./components/header";
+// import Header from "./components/header";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -17,7 +17,8 @@ import '../asset/style.css'
 export default function Apps(){
     return(
         <div>HELLO
-            <Header />
+            <p>we done it yes</p>
+            {/* <Header /> */}
         </div>
     )
 }
